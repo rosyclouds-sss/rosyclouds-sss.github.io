@@ -16,10 +16,12 @@
 &lt;h1 id=&#34;蓝屏代码解释及解决方法&#34;&gt;&lt;a href=&#34;#蓝屏代码解释及解决方法&#34; class=&#34;headerlink&#34; title=&#34;蓝屏代码解释及解决方法&#34;&gt;&lt;/a&gt;蓝屏代码解释及解决方法&lt;/h1&gt;&lt;hr&gt;
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;小云因为常遇到电脑蓝屏情况，今天就来整理一下部分常见的蓝屏代码分析及解决方法。
 ###  1、蓝屏代码 OXOOOOOOOA    
-![](常见蓝屏代码分析-1/OXOOOOOOOA.jpg)
-**文字说明**：IRQL-NOT-LESS-OR-EQVAL&lt;br&gt;
-通常的原因：驱动程序使用了不正确的内存地址。
 
+
+
+
+
+&lt;p&gt;&lt;img src=&#34;/.com//OXOOOOOOOA.jpg&#34; alt&gt;&lt;br&gt;&lt;strong&gt;文字说明&lt;/strong&gt;：IRQL-NOT-LESS-OR-EQVAL&lt;br&gt;&lt;br&gt;通常的原因：驱动程序使用了不正确的内存地址。&lt;/p&gt;
 &lt;p&gt;&lt;img src alt&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;解决方法&lt;/em&gt;&lt;/strong&gt;：重新启动计算机，连续按F8键。进入WINDOWS高级选项菜单，选择“最后一次正确的配置”，然后按回车键。&lt;/p&gt;
 &lt;hr&gt;
