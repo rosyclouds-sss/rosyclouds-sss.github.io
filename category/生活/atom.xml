@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://yoursite.com</id>
+    <title>Hexo • Posts by &#34;生活&#34; category</title>
+    <link href="http://yoursite.com" />
+    <updated>2020-07-16T00:00:00.000Z</updated>
+    <category term="first" />
+    <entry>
+        <id>http://yoursite.com/2020/07/16/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8CSDN-markdown%E7%BC%96%E8%BE%91%E5%99%A8/</id>
+        <title>我的第一个博客</title>
+        <link rel="alternate" href="http://yoursite.com/2020/07/16/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8CSDN-markdown%E7%BC%96%E8%BE%91%E5%99%A8/"/>
+        <content type="html">&lt;h1 id=&#34;我的第一个博客&#34;&gt;&lt;a href=&#34;#我的第一个博客&#34; class=&#34;headerlink&#34; title=&#34;我的第一个博客&#34;&gt;&lt;/a&gt;我的第一个博客&lt;/h1&gt;&lt;h2 id=&#34;认知&#34;&gt;&lt;a href=&#34;#认知&#34; class=&#34;headerlink&#34; title=&#34;认知&#34;&gt;&lt;/a&gt;&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=#cdcdcd&gt;&lt;font face=&#34;STCAIYUN&#34; size=5&gt;认知&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/h2&gt;&lt;p&gt; &amp;ensp;&amp;nbsp;今天正式步入博客写文章的行列，很长时间以来对博客都有一定的兴趣，包括看到身边的朋友都在利用博客记录各色各样的笔记以及生活的小趣味。&lt;br&gt;&lt;br/&gt;&lt;br&gt; 自己也以为博客是和自己玩的QQ空间、微博一样，分享自己喜怒哀乐小生活的地方，随着自己的进一步了解，感觉自己的认知可能还在停留在几年前&lt;del&gt;~&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;为什么选择了博客&#34;&gt;&lt;a href=&#34;#为什么选择了博客&#34; class=&#34;headerlink&#34; title=&#34;为什么选择了博客&#34;&gt;&lt;/a&gt;&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=#cdcdcd&gt;&lt;font face=&#34;STCAIYUN&#34; size=5&gt;为什么选择了博客&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一直以来自己的生活都很安逸，直到最近因为自己需要学习新的技术，需要写的东西有点多，自己的笔记也分为多种，下面解释一下自己感觉笔记的优缺点：&lt;br/&gt;&lt;br&gt;笔记类型|优点|缺点&lt;br&gt;|—|———–|—————-|&lt;br&gt;纸质笔记|写作的实际过程可以更加批判性地思考选择写下来的信息|比较浪费时间、容易丢失&lt;br&gt;电子笔记|记录知识点多、知识点全面、可以更新到手机、U盘等地方|记录的东西多，没时间去思考&lt;br&gt;虽然各有优缺点，但这些都不太适合小雲自己使用，微博 和QQ空间更不适合去保存文件，所以小雲选择了github和CSDN实时更新跟进自己的笔记。&lt;/p&gt;
+&lt;h3 id=&#34;自己对博客的应用及看法&#34;&gt;&lt;a href=&#34;#自己对博客的应用及看法&#34; class=&#34;headerlink&#34; title=&#34;自己对博客的应用及看法&#34;&gt;&lt;/a&gt;&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=#cdcdcd&gt;&lt;font face=&#34;STCAIYUN&#34; size=4&gt;自己对博客的应用及看法&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;小雲一直在探寻适合自己的笔记应用，但使用了博客技术显然可以跟进自己的进度，存档自己的笔记，同时也可以展示自己的学习成果，更重要的是进入某个公司时，可能会看一下你的学习成果，展示自己搭建的博客，给自己多一项加分项。&lt;/p&gt;
+&lt;hr/&gt;
+曾经的笔记我自己不会做很大的改动，我相信自己会有很大的进步，接下来我会慢慢分享自己的学习成果，同时自己也会进一步的复习。
+&lt;center&gt;谢谢!!!&lt;/center&gt;
+下面分享一下我朋友的博客&lt;br/&gt;
+&lt;a href=&#34;https://Aifery.cn&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; title=&#34;标题&#34;&gt;Aifery&lt;/a&gt;
+</content>
+        <category term="first" />
+        <updated>2020-07-16T00:00:00.000Z</updated>
+    </entry>
+</feed>
