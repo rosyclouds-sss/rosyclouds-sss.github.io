@@ -138,54 +138,6 @@
 &lt;hr&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">http://yoursite.com/2020/07/16/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
-            <title>计算机基础知识</title>
-            <link>http://yoursite.com/2020/07/16/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
-            <pubDate>Thu, 16 Jul 2020 22:23:14 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;title: 计算机基础知识&lt;br&gt;date: 2020-07-16 22:24&lt;br&gt;author: me&lt;br&gt;tags:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;basics&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;categories: 技术&lt;/p&gt;
-&lt;h1 id=&#34;计算机基础知识&#34;&gt;&lt;a href=&#34;#计算机基础知识&#34; class=&#34;headerlink&#34; title=&#34;计算机基础知识&#34;&gt;&lt;/a&gt;计算机基础知识&lt;/h1&gt;&lt;h3 id=&#34;一、&#34;&gt;&lt;a href=&#34;#一、&#34; class=&#34;headerlink&#34; title=&#34;一、&#34;&gt;&lt;/a&gt;一、&lt;/h3&gt;&lt;h4 id=&#34;（一）、计算机&#34;&gt;&lt;a href=&#34;#（一）、计算机&#34; class=&#34;headerlink&#34; title=&#34;（一）、计算机&#34;&gt;&lt;/a&gt;（一）、计算机&lt;/h4&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;计算机&lt;/strong&gt;（_Computer_）全称：电子计算机，俗称电脑。是一种能够按照程序运行，自动、高速处理数据的现代化智能电子设备。由硬件和软件所组成，没有安装任何软件的计算机称为裸机。常见的形式有台式计算机、笔记本计算机。按照规模分为微型机、小型机、大型机、巨型机（超级计算机）等。&lt;/p&gt;
-&lt;h4 id=&#34;（二）、计算机硬件&#34;&gt;&lt;a href=&#34;#（二）、计算机硬件&#34; class=&#34;headerlink&#34; title=&#34;（二）、计算机硬件&#34;&gt;&lt;/a&gt;（二）、计算机硬件&lt;/h4&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;计算机硬件&lt;/strong&gt;（_Computer Hardware_）是指计算机系统中由电子，机械和光电元件等组成的各种物理装置的总称。这些物理装置按系统结构的要求构成一个有机整体为计算机软件运行提供物质基础。&lt;/p&gt;
-&lt;p&gt;计算机通常由==CPU、主板、内存、电源、主机箱、硬盘、显卡、键盘、鼠标，显示器==等多个部件组成。&lt;/p&gt;
-&lt;h4 id=&#34;三-、-计算机软件&#34;&gt;&lt;a href=&#34;#三-、-计算机软件&#34; class=&#34;headerlink&#34; title=&#34;(三)、 计算机软件&#34;&gt;&lt;/a&gt;(三)、 计算机软件&lt;/h4&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;计算机软件&lt;/strong&gt;（_Computer Software_）是使用计算机过程中必不可少的东西，计算机软件可以使计算机按照事先预定好的顺序完成特定的功能，计算机软件按照其功能划分为系统软件与应用软件&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;系统软件&lt;/strong&gt;： DOS(Disk Operating System), Windows, Linux, Unix, Mac, Android, iOS&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;应用软件&lt;/strong&gt;：像我们常用的office  QQ  英雄联盟  王者荣耀  和平营地&lt;/p&gt;
-&lt;h4 id=&#34;四-、软件开发&#34;&gt;&lt;a href=&#34;#四-、软件开发&#34; class=&#34;headerlink&#34; title=&#34;(四)、软件开发&#34;&gt;&lt;/a&gt;(四)、软件开发&lt;/h4&gt;&lt;p&gt;软件：&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;按照特定顺序组织的计算机数据和指令的集合开发&lt;br&gt;软件的制作过程：&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;软件开发借助开发工具与计算机语言制作软件&lt;/p&gt;
-&lt;h4 id=&#34;（五）、计算机语言&#34;&gt;&lt;a href=&#34;#（五）、计算机语言&#34; class=&#34;headerlink&#34; title=&#34;（五）、计算机语言&#34;&gt;&lt;/a&gt;（五）、计算机语言&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;计算机语言是&lt;/strong&gt;：&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;人类进行沟通交流的各种表达符号，方便人与人之间进行沟通与信息交换的计算机语言&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;人与计算机之间进行信息交流沟通也是通过一种特殊的语言，计算机语言中也有字符，符号等等！！！&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;常见的计算机语言如C,C++,C#,JAVA等等&lt;del&gt;~&lt;/del&gt;&lt;/p&gt;
-&lt;h3 id=&#34;（六）、人机交互方式&#34;&gt;&lt;a href=&#34;#（六）、人机交互方式&#34; class=&#34;headerlink&#34; title=&#34;（六）、人机交互方式&#34;&gt;&lt;/a&gt;（六）、人机交互方式&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;软件的出现实现了人与计算机之间更好的交互。&lt;/p&gt;
-&lt;p&gt;交互方式：&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;图形化界面：这种方式简单直观，使用者易于接受，容易上手操作。&lt;br&gt;命令行方式：&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;需要有一个控制台，输入特定的指令，让计算机完成一些操作。较为麻烦，需要记录住一些命令。&lt;/p&gt;
-&lt;h3 id=&#34;（七）、键盘功能键及快捷键介绍&#34;&gt;&lt;a href=&#34;#（七）、键盘功能键及快捷键介绍&#34; class=&#34;headerlink&#34; title=&#34;（七）、键盘功能键及快捷键介绍&#34;&gt;&lt;/a&gt;（七）、键盘功能键及快捷键介绍&lt;/h3&gt;&lt;p&gt;Tab                            &lt;/p&gt;
-&lt;p&gt;Shift      Ctrl Alt&lt;/p&gt;
-&lt;p&gt;空格       Enter&lt;/p&gt;
-&lt;p&gt;Window&lt;/p&gt;
-&lt;p&gt;上下左右&lt;/p&gt;
-&lt;p&gt;PrtSc(PrintScreen)屏幕截图&lt;/p&gt;
-&lt;p&gt;Ctrl+A   全选&lt;/p&gt;
-&lt;p&gt;Ctrl+C    复制&lt;/p&gt;
-&lt;p&gt;Ctrl+V   粘贴&lt;/p&gt;
-&lt;p&gt;Ctrl+X    剪切&lt;/p&gt;
-&lt;p&gt;Ctrl+Z    撤销&lt;/p&gt;
-&lt;p&gt;Ctrl+S    保存…&lt;/p&gt;
-&lt;h3 id=&#34;（八）、常用的DOS命令&#34;&gt;&lt;a href=&#34;#（八）、常用的DOS命令&#34; class=&#34;headerlink&#34; title=&#34;（八）、常用的DOS命令&#34;&gt;&lt;/a&gt;（八）、常用的DOS命令&lt;/h3&gt;&lt;p&gt;打开DOS控制台的方式&lt;/p&gt;
-&lt;p&gt;常用DOS命令&lt;/p&gt;
-&lt;p&gt;cmd 进入DOS窗口                        #快捷方式，浏览目录，直接输入CMD跳转&lt;/p&gt;
-&lt;p&gt;默认是在c盘下，可以切换盘符。&lt;/p&gt;
-&lt;p&gt;e:    进入e盘&lt;/p&gt;
-&lt;p&gt;dir 列出当前目录下的目录和文件&lt;/p&gt;
-&lt;p&gt;mkdir   新建文件夹&lt;/p&gt;
-&lt;p&gt;rmdir   删除文件夹&lt;/p&gt;
-&lt;p&gt;cd java 进入java目录&lt;/p&gt;
-&lt;p&gt;cd .. 退到上层目录&lt;/p&gt;
-&lt;p&gt;cd / 退到根目录&lt;/p&gt;
-&lt;p&gt;exit : 退出dos命令行&lt;/p&gt;
-&lt;p&gt;cls : (clear screen)清屏&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
             <guid isPermalink="true">http://yoursite.com/2020/07/16/hello-world/</guid>
             <title>Hello World</title>
             <link>http://yoursite.com/2020/07/16/hello-world/</link>
@@ -212,8 +164,8 @@
             <link>http://yoursite.com/2020/07/16/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8CSDN-markdown%E7%BC%96%E8%BE%91%E5%99%A8/</link>
             <category>first</category>
             <pubDate>Thu, 16 Jul 2020 08:00:00 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;我的第一个博客&#34;&gt;&lt;a href=&#34;#我的第一个博客&#34; class=&#34;headerlink&#34; title=&#34;我的第一个博客&#34;&gt;&lt;/a&gt;我的第一个博客&lt;/h1&gt;&lt;h2 id=&#34;认知&#34;&gt;&lt;a href=&#34;#认知&#34; class=&#34;headerlink&#34; title=&#34;认知&#34;&gt;&lt;/a&gt;&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=#cdcdcd&gt;&lt;font face=&#34;STCAIYUN&#34; size=5&gt;认知&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/h2&gt;&lt;p&gt; &amp;ensp;&amp;nbsp;今天正式步入博客写文章的行列，很长时间以来对博客都有一定的兴趣，包括看到身边的朋友都在利用博客记录各色各样的笔记以及生活的小趣味。&lt;br&gt;&lt;br/&gt;&lt;br&gt; 自己也以为博客是和自己玩的QQ空间、微博一样，分享自己喜怒哀乐小生活的地方，随着自己的进一步了解，感觉自己的认知可能还在停留在几年前&lt;del&gt;~&lt;/del&gt;&lt;/p&gt;
-&lt;h2 id=&#34;为什么选择了博客&#34;&gt;&lt;a href=&#34;#为什么选择了博客&#34; class=&#34;headerlink&#34; title=&#34;为什么选择了博客&#34;&gt;&lt;/a&gt;&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=#cdcdcd&gt;&lt;font face=&#34;STCAIYUN&#34; size=5&gt;为什么选择了博客&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一直以来自己的生活都很安逸，直到最近因为自己需要学习新的技术，需要写的东西有点多，自己的笔记也分为多种，下面解释一下自己感觉笔记的优缺点：&lt;br/&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;h1 id=&#34;我的第一个博客&#34;&gt;&lt;a href=&#34;#我的第一个博客&#34; class=&#34;headerlink&#34; title=&#34;我的第一个博客&#34;&gt;&lt;/a&gt;我的第一个博客&lt;/h1&gt;&lt;h2 id=&#34;认知&#34;&gt;&lt;a href=&#34;#认知&#34; class=&#34;headerlink&#34; title=&#34;认知&#34;&gt;&lt;/a&gt;&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#cdcdcd&#34;&gt;&lt;font face=&#34;STCAIYUN&#34; size=&#34;5&#34;&gt;认知&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/h2&gt;&lt;p&gt; &amp;ensp;&amp;nbsp;今天正式步入博客写文章的行列，很长时间以来对博客都有一定的兴趣，包括看到身边的朋友都在利用博客记录各色各样的笔记以及生活的小趣味。&lt;br&gt;&lt;br&gt;&lt;br&gt; 自己也以为博客是和自己玩的QQ空间、微博一样，分享自己喜怒哀乐小生活的地方，随着自己的进一步了解，感觉自己的认知可能还在停留在几年前&lt;del&gt;~&lt;/del&gt;&lt;/p&gt;
+&lt;h2 id=&#34;为什么选择了博客&#34;&gt;&lt;a href=&#34;#为什么选择了博客&#34; class=&#34;headerlink&#34; title=&#34;为什么选择了博客&#34;&gt;&lt;/a&gt;&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#cdcdcd&#34;&gt;&lt;font face=&#34;STCAIYUN&#34; size=&#34;5&#34;&gt;为什么选择了博客&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;一直以来自己的生活都很安逸，直到最近因为自己需要学习新的技术，需要写的东西有点多，自己的笔记也分为多种，下面解释一下自己感觉笔记的优缺点：&lt;br&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -238,7 +190,7 @@
 &lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;###   &lt;table&gt;&lt;tr&gt;&lt;td bgcolor=#cdcdcd&gt;&lt;font face=&#34;STCAIYUN&#34; size=4&gt;自己对博客的应用及看法&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;###   &lt;table&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#cdcdcd&#34;&gt;&lt;font face=&#34;STCAIYUN&#34; size=&#34;4&#34;&gt;自己对博客的应用及看法&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -248,7 +200,7 @@
 &lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;&lt;hr/&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;hr&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -263,7 +215,7 @@
 &lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;left&#34;&gt;下面分享一下我朋友的博客&lt;br/&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;下面分享一下我朋友的博客&lt;br&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;&lt;/td&gt;
 &lt;/tr&gt;
