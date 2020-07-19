@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;技术&#34; category</title>
+        <link>http://yoursite.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Thu, 16 Jul 2020 22:24:00 +0800</pubDate>
+        <lastBuildDate>Thu, 16 Jul 2020 22:24:00 +0800</lastBuildDate>
+        <category>first</category>
+        <category>basics</category>
+        <item>
+            <guid isPermalink="true">http://yoursite.com/2020/07/16/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</guid>
+            <title>计算机基础知识</title>
+            <link>http://yoursite.com/2020/07/16/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</link>
+            <category>basics</category>
+            <pubDate>Thu, 16 Jul 2020 22:24:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;计算机基础知识&#34;&gt;&lt;a href=&#34;#计算机基础知识&#34; class=&#34;headerlink&#34; title=&#34;计算机基础知识&#34;&gt;&lt;/a&gt;计算机基础知识&lt;/h1&gt;&lt;h3 id=&#34;一、&#34;&gt;&lt;a href=&#34;#一、&#34; class=&#34;headerlink&#34; title=&#34;一、&#34;&gt;&lt;/a&gt;一、&lt;/h3&gt;&lt;h4 id=&#34;（一）、计算机&#34;&gt;&lt;a href=&#34;#（一）、计算机&#34; class=&#34;headerlink&#34; title=&#34;（一）、计算机&#34;&gt;&lt;/a&gt;（一）、计算机&lt;/h4&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;计算机&lt;/strong&gt;（_Computer_）全称：电子计算机，俗称电脑。是一种能够按照程序运行，自动、高速处理数据的现代化智能电子设备。由硬件和软件所组成，没有安装任何软件的计算机称为裸机。常见的形式有台式计算机、笔记本计算机。按照规模分为微型机、小型机、大型机、巨型机（超级计算机）等。&lt;/p&gt;
+&lt;h4 id=&#34;（二）、计算机硬件&#34;&gt;&lt;a href=&#34;#（二）、计算机硬件&#34; class=&#34;headerlink&#34; title=&#34;（二）、计算机硬件&#34;&gt;&lt;/a&gt;（二）、计算机硬件&lt;/h4&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;计算机硬件&lt;/strong&gt;（_Computer Hardware_）是指计算机系统中由电子，机械和光电元件等组成的各种物理装置的总称。这些物理装置按系统结构的要求构成一个有机整体为计算机软件运行提供物质基础。&lt;/p&gt;
+&lt;p&gt;计算机通常由==CPU、主板、内存、电源、主机箱、硬盘、显卡、键盘、鼠标，显示器==等多个部件组成。&lt;/p&gt;
+&lt;h4 id=&#34;三-、-计算机软件&#34;&gt;&lt;a href=&#34;#三-、-计算机软件&#34; class=&#34;headerlink&#34; title=&#34;(三)、 计算机软件&#34;&gt;&lt;/a&gt;(三)、 计算机软件&lt;/h4&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;计算机软件&lt;/strong&gt;（_Computer Software_）是使用计算机过程中必不可少的东西，计算机软件可以使计算机按照事先预定好的顺序完成特定的功能，计算机软件按照其功能划分为系统软件与应用软件&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;系统软件&lt;/strong&gt;： DOS(Disk Operating System), Windows, Linux, Unix, Mac, Android, iOS&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;应用软件&lt;/strong&gt;：像我们常用的office  QQ  英雄联盟  王者荣耀  和平营地&lt;/p&gt;
+&lt;h4 id=&#34;四-、软件开发&#34;&gt;&lt;a href=&#34;#四-、软件开发&#34; class=&#34;headerlink&#34; title=&#34;(四)、软件开发&#34;&gt;&lt;/a&gt;(四)、软件开发&lt;/h4&gt;&lt;p&gt;软件：&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;按照特定顺序组织的计算机数据和指令的集合开发&lt;br&gt;软件的制作过程：&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;软件开发借助开发工具与计算机语言制作软件&lt;/p&gt;
+&lt;h4 id=&#34;（五）、计算机语言&#34;&gt;&lt;a href=&#34;#（五）、计算机语言&#34; class=&#34;headerlink&#34; title=&#34;（五）、计算机语言&#34;&gt;&lt;/a&gt;（五）、计算机语言&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;计算机语言是&lt;/strong&gt;：&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;人类进行沟通交流的各种表达符号，方便人与人之间进行沟通与信息交换的计算机语言&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;人与计算机之间进行信息交流沟通也是通过一种特殊的语言，计算机语言中也有字符，符号等等！！！&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;常见的计算机语言如C,C++,C#,JAVA等等&lt;del&gt;~&lt;/del&gt;&lt;/p&gt;
+&lt;h3 id=&#34;（六）、人机交互方式&#34;&gt;&lt;a href=&#34;#（六）、人机交互方式&#34; class=&#34;headerlink&#34; title=&#34;（六）、人机交互方式&#34;&gt;&lt;/a&gt;（六）、人机交互方式&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;软件的出现实现了人与计算机之间更好的交互。&lt;/p&gt;
+&lt;p&gt;交互方式：&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;图形化界面：这种方式简单直观，使用者易于接受，容易上手操作。&lt;br&gt;命令行方式：&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;需要有一个控制台，输入特定的指令，让计算机完成一些操作。较为麻烦，需要记录住一些命令。&lt;/p&gt;
+&lt;h3 id=&#34;（七）、键盘功能键及快捷键介绍&#34;&gt;&lt;a href=&#34;#（七）、键盘功能键及快捷键介绍&#34; class=&#34;headerlink&#34; title=&#34;（七）、键盘功能键及快捷键介绍&#34;&gt;&lt;/a&gt;（七）、键盘功能键及快捷键介绍&lt;/h3&gt;&lt;p&gt;Tab                            &lt;/p&gt;
+&lt;p&gt;Shift      Ctrl Alt&lt;/p&gt;
+&lt;p&gt;空格       Enter&lt;/p&gt;
+&lt;p&gt;Window&lt;/p&gt;
+&lt;p&gt;上下左右&lt;/p&gt;
+&lt;p&gt;PrtSc(PrintScreen)屏幕截图&lt;/p&gt;
+&lt;p&gt;Ctrl+A   全选&lt;/p&gt;
+&lt;p&gt;Ctrl+C    复制&lt;/p&gt;
+&lt;p&gt;Ctrl+V   粘贴&lt;/p&gt;
+&lt;p&gt;Ctrl+X    剪切&lt;/p&gt;
+&lt;p&gt;Ctrl+Z    撤销&lt;/p&gt;
+&lt;p&gt;Ctrl+S    保存…&lt;/p&gt;
+&lt;h3 id=&#34;（八）、常用的DOS命令&#34;&gt;&lt;a href=&#34;#（八）、常用的DOS命令&#34; class=&#34;headerlink&#34; title=&#34;（八）、常用的DOS命令&#34;&gt;&lt;/a&gt;（八）、常用的DOS命令&lt;/h3&gt;&lt;p&gt;打开DOS控制台的方式&lt;/p&gt;
+&lt;p&gt;常用DOS命令&lt;/p&gt;
+&lt;p&gt;cmd 进入DOS窗口                        #快捷方式，浏览目录，直接输入CMD跳转&lt;/p&gt;
+&lt;p&gt;默认是在c盘下，可以切换盘符。&lt;/p&gt;
+&lt;p&gt;e:    进入e盘&lt;/p&gt;
+&lt;p&gt;dir 列出当前目录下的目录和文件&lt;/p&gt;
+&lt;p&gt;mkdir   新建文件夹&lt;/p&gt;
+&lt;p&gt;rmdir   删除文件夹&lt;/p&gt;
+&lt;p&gt;cd java 进入java目录&lt;/p&gt;
+&lt;p&gt;cd .. 退到上层目录&lt;/p&gt;
+&lt;p&gt;cd / 退到根目录&lt;/p&gt;
+&lt;p&gt;exit : 退出dos命令行&lt;/p&gt;
+&lt;p&gt;cls : (clear screen)清屏&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

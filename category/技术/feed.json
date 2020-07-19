@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Hexo • All posts by \"技术\" category",
+    "description": "",
+    "home_page_url": "http://yoursite.com",
+    "items": [
+        {
+            "id": "http://yoursite.com/2020/07/16/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/",
+            "url": "http://yoursite.com/2020/07/16/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/",
+            "title": "计算机基础知识",
+            "date_published": "2020-07-16T14:24:00.000Z",
+            "content_html": "<h1 id=\"计算机基础知识\"><a href=\"#计算机基础知识\" class=\"headerlink\" title=\"计算机基础知识\"></a>计算机基础知识</h1><h3 id=\"一、\"><a href=\"#一、\" class=\"headerlink\" title=\"一、\"></a>一、</h3><h4 id=\"（一）、计算机\"><a href=\"#（一）、计算机\" class=\"headerlink\" title=\"（一）、计算机\"></a>（一）、计算机</h4><p>&nbsp;&nbsp;&nbsp;<strong>计算机</strong>（_Computer_）全称：电子计算机，俗称电脑。是一种能够按照程序运行，自动、高速处理数据的现代化智能电子设备。由硬件和软件所组成，没有安装任何软件的计算机称为裸机。常见的形式有台式计算机、笔记本计算机。按照规模分为微型机、小型机、大型机、巨型机（超级计算机）等。</p>\n<h4 id=\"（二）、计算机硬件\"><a href=\"#（二）、计算机硬件\" class=\"headerlink\" title=\"（二）、计算机硬件\"></a>（二）、计算机硬件</h4><p>&nbsp;&nbsp;&nbsp;<strong>计算机硬件</strong>（_Computer Hardware_）是指计算机系统中由电子，机械和光电元件等组成的各种物理装置的总称。这些物理装置按系统结构的要求构成一个有机整体为计算机软件运行提供物质基础。</p>\n<p>计算机通常由==CPU、主板、内存、电源、主机箱、硬盘、显卡、键盘、鼠标，显示器==等多个部件组成。</p>\n<h4 id=\"三-、-计算机软件\"><a href=\"#三-、-计算机软件\" class=\"headerlink\" title=\"(三)、 计算机软件\"></a>(三)、 计算机软件</h4><p>&nbsp;&nbsp;&nbsp;<strong>计算机软件</strong>（_Computer Software_）是使用计算机过程中必不可少的东西，计算机软件可以使计算机按照事先预定好的顺序完成特定的功能，计算机软件按照其功能划分为系统软件与应用软件</p>\n<p><strong>系统软件</strong>： DOS(Disk Operating System), Windows, Linux, Unix, Mac, Android, iOS</p>\n<p><strong>应用软件</strong>：像我们常用的office  QQ  英雄联盟  王者荣耀  和平营地</p>\n<h4 id=\"四-、软件开发\"><a href=\"#四-、软件开发\" class=\"headerlink\" title=\"(四)、软件开发\"></a>(四)、软件开发</h4><p>软件：<br>&nbsp;&nbsp;&nbsp;按照特定顺序组织的计算机数据和指令的集合开发<br>软件的制作过程：<br>&nbsp;&nbsp;&nbsp;软件开发借助开发工具与计算机语言制作软件</p>\n<h4 id=\"（五）、计算机语言\"><a href=\"#（五）、计算机语言\" class=\"headerlink\" title=\"（五）、计算机语言\"></a>（五）、计算机语言</h4><p><strong>计算机语言是</strong>：<br>&nbsp;&nbsp;&nbsp;人类进行沟通交流的各种表达符号，方便人与人之间进行沟通与信息交换的计算机语言</p>\n<p>&nbsp;&nbsp;&nbsp;人与计算机之间进行信息交流沟通也是通过一种特殊的语言，计算机语言中也有字符，符号等等！！！<br>&nbsp;&nbsp;&nbsp;常见的计算机语言如C,C++,C#,JAVA等等<del>~</del></p>\n<h3 id=\"（六）、人机交互方式\"><a href=\"#（六）、人机交互方式\" class=\"headerlink\" title=\"（六）、人机交互方式\"></a>（六）、人机交互方式</h3><p>&nbsp;&nbsp;&nbsp;软件的出现实现了人与计算机之间更好的交互。</p>\n<p>交互方式：<br>&nbsp;&nbsp;&nbsp;图形化界面：这种方式简单直观，使用者易于接受，容易上手操作。<br>命令行方式：<br>&nbsp;&nbsp;&nbsp;需要有一个控制台，输入特定的指令，让计算机完成一些操作。较为麻烦，需要记录住一些命令。</p>\n<h3 id=\"（七）、键盘功能键及快捷键介绍\"><a href=\"#（七）、键盘功能键及快捷键介绍\" class=\"headerlink\" title=\"（七）、键盘功能键及快捷键介绍\"></a>（七）、键盘功能键及快捷键介绍</h3><p>Tab                            </p>\n<p>Shift      Ctrl Alt</p>\n<p>空格       Enter</p>\n<p>Window</p>\n<p>上下左右</p>\n<p>PrtSc(PrintScreen)屏幕截图</p>\n<p>Ctrl+A   全选</p>\n<p>Ctrl+C    复制</p>\n<p>Ctrl+V   粘贴</p>\n<p>Ctrl+X    剪切</p>\n<p>Ctrl+Z    撤销</p>\n<p>Ctrl+S    保存…</p>\n<h3 id=\"（八）、常用的DOS命令\"><a href=\"#（八）、常用的DOS命令\" class=\"headerlink\" title=\"（八）、常用的DOS命令\"></a>（八）、常用的DOS命令</h3><p>打开DOS控制台的方式</p>\n<p>常用DOS命令</p>\n<p>cmd 进入DOS窗口                        #快捷方式，浏览目录，直接输入CMD跳转</p>\n<p>默认是在c盘下，可以切换盘符。</p>\n<p>e:    进入e盘</p>\n<p>dir 列出当前目录下的目录和文件</p>\n<p>mkdir   新建文件夹</p>\n<p>rmdir   删除文件夹</p>\n<p>cd java 进入java目录</p>\n<p>cd .. 退到上层目录</p>\n<p>cd / 退到根目录</p>\n<p>exit : 退出dos命令行</p>\n<p>cls : (clear screen)清屏</p>\n",
+            "tags": [
+                "basics"
+            ]
+        }
+    ]
+}
