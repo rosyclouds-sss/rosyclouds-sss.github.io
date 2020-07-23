@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;java基础&#34; category</title>
+        <link>http://yoursite.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Wed, 22 Jul 2020 21:06:00 +0800</pubDate>
+        <lastBuildDate>Wed, 22 Jul 2020 21:06:00 +0800</lastBuildDate>
+        <category>first</category>
+        <category>basics</category>
+        <item>
+            <guid isPermalink="true">http://yoursite.com/2020/07/22/JAVA%E5%8F%91%E5%B1%95%E5%8F%B2/</guid>
+            <title>JAVA语言发展史</title>
+            <link>http://yoursite.com/2020/07/22/JAVA%E5%8F%91%E5%B1%95%E5%8F%B2/</link>
+            <category>first</category>
+            <pubDate>Wed, 22 Jul 2020 21:06:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;JAVA语言发展史&#34;&gt;&lt;a href=&#34;#JAVA语言发展史&#34; class=&#34;headerlink&#34; title=&#34;JAVA语言发展史&#34;&gt;&lt;/a&gt;JAVA语言发展史&lt;/h1&gt;&lt;h2 id=&#34;发展背景&#34;&gt;&lt;a href=&#34;#发展背景&#34; class=&#34;headerlink&#34; title=&#34;发展背景&#34;&gt;&lt;/a&gt;发展背景&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;创始人：&lt;/strong&gt; &lt;em&gt;詹姆斯·高斯林&lt;/em&gt;（James Gosling）1977年获得了加拿大卡尔加里大 学计算机科学学士学位，1983年     获得了美国卡内基梅隆大学计算机科学博士学位，毕业后到IBM工作，设计IBM第一代工作站NeWS系统，但不受重视。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;后来转至&lt;strong&gt;Sun&lt;/strong&gt;公司，1990年，与Patrick，Naughton和Mike Sheridan等人合作“绿色计划”，后来发展一套语言叫做“Oak”，后改名为&lt;strong&gt;Java&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;Sun公司于1995年推出&lt;/p&gt;
+&lt;p&gt;1991年sun公司James Gosling等人开始开发Oak语言&lt;/p&gt;
+&lt;p&gt;1994年，将Oak语言更名为Java&lt;/p&gt;
+&lt;p&gt;1995年5月23日，Sun公司正式在互联网上免费发布Java语言，标志着JAVA语言的正式诞生。几个月后，超过10万人下载Java语言。&lt;/p&gt;
+&lt;p&gt;1996年，JDK1.0发布，这是java发展历程中的重要里程碑，标志着java成为一种独立的开发工具。并获得第一笔投资1亿元&lt;/p&gt;
+&lt;p&gt;1997年2月，JDK1.1发布。&lt;/p&gt;
+&lt;p&gt;1998年提出jdk1.2，更名为java2，12月，第二代Java平台的企业版J2EE发布。&lt;/p&gt;
+&lt;p&gt;之后推出jdk1.3  jdk1.4和J2SE1.3&lt;/p&gt;
+&lt;p&gt;1999年4月27日，HotSpot虚拟机发布。&lt;/p&gt;
+&lt;p&gt;同年6月，Java2被分成三个版本：J2SE（标准版）、J2EE(企业版)、J2ME(微型版),是Java发展过程中最重要的一个里程碑，标志着Java的应用开始普及。&lt;/p&gt;
+&lt;p&gt;2000年5月,JDK1.3,JDK1.4和J2SE1.3相继发布。&lt;/p&gt;
+&lt;p&gt;2001年9月24日，J2EE1.3发布。&lt;/p&gt;
+&lt;p&gt;2002年2月，J2SE1.4发布,各种开源框架大量出现。&lt;/p&gt;
+&lt;p&gt;2005年更名为jdk5.0，进行了大幅的版本改进，6月，Java SE 6.0发布，三个版本分别改为：JavaSE， JavaEE，， JavaME。&lt;/p&gt;
+&lt;p&gt;2006年sun公司宣布将Java作为免费软件对外发布&lt;/p&gt;
+&lt;p&gt;2007年3月起，全世界所有的开发人员均可对Java源代码进行修改&lt;/p&gt;
+&lt;p&gt;2007年推出jdk6.0&lt;/p&gt;
+&lt;p&gt;2009年4月Oracle以74亿美元收购了sun公司&lt;/p&gt;
+&lt;p&gt;2011年7月由Oracle正式发布jdk7&lt;/p&gt;
+&lt;p&gt;2014年3月正式发布了java8&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
