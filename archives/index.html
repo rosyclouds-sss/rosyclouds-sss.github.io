@@ -378,9 +378,9 @@ var index = Math.floor((Math.random()*arr.length));
 			<nav>
 				
 				<div class="dearmsdan-count">
-					<span>文章</span>4
+					<span>文章</span>5
 					<span>标签</span>2
-					<span>分类</span>3
+					<span>分类</span>4
 				</div>		
 			<div class="social-btns">
 				
@@ -467,6 +467,13 @@ var index = Math.floor((Math.random()*arr.length));
         </li>
 
         
+
+        <li>
+          <a href="/categories/软件搭建/">软件搭建</a>
+          <span>1</span>
+        </li>
+
+        
       </ul>
 
     </div>
@@ -512,6 +519,10 @@ var index = Math.floor((Math.random()*arr.length));
 	  </a>
     <div>
       <ul>
+        
+          <li>
+            <a href="/2020/07/28/MyBlog%E6%90%AD%E5%BB%BA/">Github博客-Hexo框架</a>
+          </li>
         
           <li>
             <a href="/2020/07/22/JAVA%E5%8F%91%E5%B1%95%E5%8F%B2/">JAVA语言发展史</a>
@@ -601,6 +612,186 @@ var index = Math.floor((Math.random()*arr.length));
 					
 <div class="dearmsdan">
 	<section class="dearmsdan-posts">
+    
+    <div class="dearmsdan-post" id="dearmsdanIndex">
+		
+        <a href="/2020/07/28/MyBlog%E6%90%AD%E5%BB%BA/">
+            <div class="dearmsdan-title"> 
+				Github博客-Hexo框架
+            </div>
+        </a>
+		
+        <article>
+            
+            <h1 id="Github博客-Hexo框架"><a href="#Github博客-Hexo框架" class="headerlink" title="Github博客-Hexo框架"></a>Github博客-Hexo框架</h1><table><div><tr><td bgcolor="#FD8002"><font face="STCAIYUN" size="5">介绍</font></td></tr></div></table>
+&nbsp;&nbsp;&nbsp;&nbsp;博客的文章主要使用MarkDown文档格式
+
+<p>个人博客分为静态与动态两种：</p>
+<table>
+<thead>
+<tr>
+<th align="center">静态博客</th>
+<th align="center">动态博客</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">方便快捷</td>
+<td align="center">有前端与后端之分，动态管理，用户管理，功能基本完善</td>
+</tr>
+</tbody></table>
+<p>因为考虑但方便快捷问题，选择了与朋友相同的静态博客</p>
+<h2 id="搭建初始化博客"><a href="#搭建初始化博客" class="headerlink" title="搭建初始化博客"></a><table><div><tr><td bgcolor="#FD8002"><font face="微软雅黑" size="5" color="#FFFFFF">搭建初始化博客</font></td></tr></div></table></h2><table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="4" color="#FFFFFF">下载安装git</font></td></tr></div></table>
+
+<ul>
+<li>打开git的官方网站–<a href="https://git-scm.com/" target="_blank" rel="noopener">https://git-scm.com/</a></li>
+<li>下载并安装git</li>
+<li>设置git身份</li>
+</ul>
+<table><div><tr><td bgcolor="#000000"><font face="微软雅黑" color="#FFFFFF">git config --global user.email "you@example.com"  
+git config --global user.name "Your Name"</font></td></tr></div></table>
+
+<table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="4" color="#FFFFFF">下载安装Node.js</font></td></tr></div></table>
+
+<ul>
+<li>打开Nodejs的官方网站–<a href="https://nodejs.org/" target="_blank" rel="noopener">https://nodejs.org/</a></li>
+<li>下载并安装LTS长期支持版本</li>
+<li>打开命令窗口（Win+R）并输入代码查看是否安装成功node -v和npm -v</li>
+</ul>
+<table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="4" color="#FFFFFF">安装Hexo博客框架</font></td></tr></div></table>
+
+<ul>
+<li>因为国内镜像源延迟问题，安装中国的CNMP（-g为全局安装）<br>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></li>
+<li>检查是否安装成功cnpm -v</li>
+<li>接下来安装hexo博客框架cnpm install -g hexo-cli</li>
+<li>检查是否安装成功hexo -v</li>
+</ul>
+<table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="4" color="#FFFFFF">初始化博客</font></td></tr></div></table>
+
+<ul>
+<li>建立自己的博客文件夹（如果后期想删除直接删除该文件夹就行）</li>
+<li>CMD指向该目录，并执行语句hexo init初始化博客</li>
+</ul>
+<p><strong><em>如果出现下面代码说明没有安装git</em></strong></p>
+<table><div><tr><td bgcolor="#000000"><font face="微软雅黑" color="#FFFFFF">INFO  Cloning hexo-starter https://github.com/hexojs/hexo-starter.git
+'git' 不是内部或外部命令，也不是可运行的程序或批处理文件。
+WARN  git clone failed. Copying data instead
+WARN  Failed to install dependencies. Please run 'npm install' manually!</font></td></tr></div></table>
+
+<ul>
+<li>启动博客hexo server就会出现实例地址<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a></li>
+</ul>
+<table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="4" color="#FFFFFF">网络部署git插件</font></td></tr></div></table>
+
+<ul>
+<li>在命令行窗口选择到博客根目录</li>
+<li>安装git部署插件：执行语句cnpm install –save hexo-deployer-git</li>
+<li>设置目录下的_config.yml文件（站点配置文件）<strong>冒号后一定空格</strong></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">type: git</span><br><span class="line">#repository: git@git.coding.net:xxx&#x2F;xxx.coding.me.git       </span><br><span class="line">repo: https:&#x2F;&#x2F;github.com&#x2F;xxx&#x2F;xxx.github.io.git</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>开始上传代码hexo deploy</li>
+</ul>
+<table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="4" color="#FFFFFF">多仓库部署</font></td></tr></div></table>
+
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: </span><br><span class="line">    github: https:&#x2F;&#x2F;github.com&#x2F;XXX&#x2F;XXX.git</span><br><span class="line">    coding: https:&#x2F;&#x2F;e.coding.net&#x2F;XXX&#x2F;XXX.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+  <table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="4" color="#FFFFFF">网络部署常见问题</font></td></tr></div></table>
+
+<p>  密码输入错误：进入Windows的控制面板，打开凭据管理器，选择Windows凭据，更改账号密码</p>
+<p>GitHub仓库名称：用户名.github.io</p>
+<p>Coding仓库名称</p>
+<h2 id="装饰我的博客"><a href="#装饰我的博客" class="headerlink" title="装饰我的博客"></a><table><div><tr><td bgcolor="#FD8002"><font face="微软雅黑" size="5" color="#FFFFFF">装饰我的博客</font></td></tr></div></table></h2> <table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="4" color="#FFFFFF">修改主题</font></td></tr></div></table>
+
+<p>  搜索或者在Hexo主题官网挑选主题-<a href="https://hexo.io/themes/" target="_blank" rel="noopener">https://hexo.io/themes/</a><br>  &nbsp;&nbsp;&nbsp;&nbsp;打开主题介绍，根据介绍安装必须插件，执行安装操作（一般是克隆git，修改配置文件）<br>  我使用的主题是</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd themes</span><br><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;ZHD99&#x2F;hexo-theme-dearmsdan.git dearmsdan</span><br></pre></td></tr></table></figure>
+ <table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="3" color="#FFFFFF">结构化自己的页面</font></td></tr></div></table> 
+
+<p> 博客页面结构目录位置:</p>
+<p>修改主程序的_config.yml文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: dearmsdan</span><br></pre></td></tr></table></figure>
+  <table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="3" color="#FFFFFF">修改代码显示格式</font></td></tr></div></table> 
+
+<p>  一个比较美观的代码块样式：<br>  在head头标签内链接css样式<br>link rel=”stylesheet” href=”<a href="https://oindk07nf.qnssl.com/atom-one-dark.css&quot;" target="_blank" rel="noopener">https://oindk07nf.qnssl.com/atom-one-dark.css&quot;</a> media=”screen” type=”text/css”</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock lang:js%&#125;</span><br><span class="line">代码块</span><br><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
+
+ <table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="3" color="#FFFFFF">插件的添加</font></td></tr></div></table> 
+ &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;在网络中搜索插件并根据说明进行安装  
+  来必力、畅言  
+  cnzz、百度统计。在最后的页脚进行部署
+
+
+
+<h2 id="【hexo】hexo博客部署到github"><a href="#【hexo】hexo博客部署到github" class="headerlink" title="【hexo】hexo博客部署到github"></a><table><div><tr><td bgcolor="#FD8002"><font face="微软雅黑" size="5" color="#FFFFFF">【hexo】hexo博客部署到github</font></td></tr></div></table></h2> <table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="4" color="#FFFFFF">一、在github上创建仓库</font></td></tr></div></table> 
+
+<p> 首先注册一个github账号，注册时填写的username要谨慎</p>
+<p> <strong>1.创建一个Repository，名称规则为：</strong><br> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">username.github.io</span><br></pre></td></tr></table></figure><br>** 2.编辑hexo/config.yml文件如下：**</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;Chocolate-Lee&#x2F;Chocolate-Lee.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+   <table><div><tr><td bgcolor="#FFCDFF"><font face="微软雅黑" size="4" color="#FFFFFF">二、为github设置SSH Keys</font></td></tr></div></table> 
+   **1.检查极其上是否已经存在id_rsa.pub文件**
+   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls -al ~&#x2F;.ssh</span><br></pre></td></tr></table></figure>
+   **2.不存在的话使其生成**  
+
+   <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">   ssh-keygen -t rsa -C &quot;xxxxxx@xxx.com&quot;</span><br><span class="line">   &#96;&#96;&#96;  </span><br><span class="line">   </span><br><span class="line">   一路回车就可以了  </span><br><span class="line">   </span><br><span class="line">   </span><br><span class="line">  ** 3.赋值id_rsa.pub文件内容，在github的settings中，点选SSH keys，添加一个key，将内容粘贴进去。**</span><br><span class="line">  </span><br><span class="line"></span><br><span class="line">**4.测试是否添加成功，在刚刚的机器上输入**</span><br></pre></td></tr></table></figure>
+<p>ssh -T <a href="mailto:git@github.com">git@github.com</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor&#x3D;#FFCDFF&gt;&lt;font face&#x3D;&quot;微软雅黑&quot; size&#x3D;4 color&#x3D;#FFFFFF&gt;三、部署到github上&lt;&#x2F;font&gt;&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;div&gt;&lt;&#x2F;table&gt;</span><br><span class="line">**1.在hexo中分别进行生成，发布：**</span><br></pre></td></tr></table></figure>
+<p>hexo g<br>hexo d</p>
+<pre><code>**2.部署成功后，可通过 http://chocolate-lee.github.io 进行访问，其中将chocolate-lle替换为你自己的username即可**
+
+&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=#FFCDFF&gt;&lt;font face=&quot;微软雅黑&quot; size=4 color=#FFFFFF&gt;五、配置自己的域名&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+1.准备一个自己的域名  
+2.解析一个二级域名，可采用A记录或者CNAME记录，A记录就是将二级域名指向github上的ip，我使用的是CNAME。  
+3.将自己的二级域名指向chocolate-lee.github.io  
+4.创建文件hexo/source/CNAME  
+5.编辑CNAME文件内容为你的域名  
+6.发布，即可，其中内容替换为自己的。  
+
+
+##  &lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=#FD8002&gt;&lt;font face=&quot;微软雅黑&quot; size=5 color=#FFFFFF&gt;文章书写发布&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=#FFCDFF&gt;&lt;font face=&quot;微软雅黑&quot; size=4 color=#FFFFFF&gt;文章的编写 - 分类标题日期&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+在MarkDown文件中，文件头写入文章信息，格式如下，可参考Hexo文档。  
+
+&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=#16937&gt;&lt;font face=&quot;微软雅黑&quot; color=#FFFFFF&gt;
+---  
+title: &quot;文章标题&quot;  
+date: (2000-01-01 08:00)  
+author: me  
+cover_picture: 封面图片(&quot;url&quot;)[可选]  
+desc: 文章的描述  
+top: 1 置顶文章[可选]  
+updated: 更新日期[可选]  
+comments: 是否打开评论(on/off)[可选]  
+tags: 标签[可选]  
+- tag  
+- tag  
+categories: 分类  
+- category  
+- category  
+---
+&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=#FFCDFF&gt;&lt;font face=&quot;微软雅黑&quot; size=4 color=#FFFFFF&gt;操作使用Hexo&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+**1、启动博客：hexo server 可以简写成 hexo s  
+2、hexo clean #用来清理缓存文件  
+3、hexo generate #生成文件  
+4、hexo server #运行本地服务器  
+5、hexo deploy #部署到服务器  **
+</code></pre>
+            
+        </article>
+        <div class="dearmsdan-post-Statistics">
+            <a>2020年07月28日</a>
+            
+                <a class="category-link" href="/categories/%E8%BD%AF%E4%BB%B6%E6%90%AD%E5%BB%BA/">软件搭建</a>
+            
+            
+                <a class="tag-link" href="/tags/first/" rel="tag">first</a>
+            
+        </div>
+		
+    </div>
     
     <div class="dearmsdan-post" id="dearmsdanIndex">
 		

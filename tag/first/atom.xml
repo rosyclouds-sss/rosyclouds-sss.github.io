@@ -3,9 +3,172 @@
     <id>http://yoursite.com</id>
     <title>Hexo • Posts by &#34;first&#34; tag</title>
     <link href="http://yoursite.com" />
-    <updated>2020-07-22T13:06:00.000Z</updated>
+    <updated>2020-07-28T13:00:00.000Z</updated>
     <category term="first" />
     <category term="basics" />
+    <entry>
+        <id>http://yoursite.com/2020/07/28/MyBlog%E6%90%AD%E5%BB%BA/</id>
+        <title>Github博客-Hexo框架</title>
+        <link rel="alternate" href="http://yoursite.com/2020/07/28/MyBlog%E6%90%AD%E5%BB%BA/"/>
+        <content type="html">&lt;h1 id=&#34;Github博客-Hexo框架&#34;&gt;&lt;a href=&#34;#Github博客-Hexo框架&#34; class=&#34;headerlink&#34; title=&#34;Github博客-Hexo框架&#34;&gt;&lt;/a&gt;Github博客-Hexo框架&lt;/h1&gt;&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FD8002&#34;&gt;&lt;font face=&#34;STCAIYUN&#34; size=&#34;5&#34;&gt;介绍&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;博客的文章主要使用MarkDown文档格式
+
+&lt;p&gt;个人博客分为静态与动态两种：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;静态博客&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;动态博客&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;方便快捷&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;有前端与后端之分，动态管理，用户管理，功能基本完善&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;因为考虑但方便快捷问题，选择了与朋友相同的静态博客&lt;/p&gt;
+&lt;h2 id=&#34;搭建初始化博客&#34;&gt;&lt;a href=&#34;#搭建初始化博客&#34; class=&#34;headerlink&#34; title=&#34;搭建初始化博客&#34;&gt;&lt;/a&gt;&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FD8002&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;5&#34; color=&#34;#FFFFFF&#34;&gt;搭建初始化博客&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;&lt;/h2&gt;&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;4&#34; color=&#34;#FFFFFF&#34;&gt;下载安装git&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;打开git的官方网站–&lt;a href=&#34;https://git-scm.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://git-scm.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;下载并安装git&lt;/li&gt;
+&lt;li&gt;设置git身份&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#000000&#34;&gt;&lt;font face=&#34;微软雅黑&#34; color=&#34;#FFFFFF&#34;&gt;git config --global user.email &#34;you@example.com&#34;  
+git config --global user.name &#34;Your Name&#34;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;4&#34; color=&#34;#FFFFFF&#34;&gt;下载安装Node.js&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;打开Nodejs的官方网站–&lt;a href=&#34;https://nodejs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://nodejs.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;下载并安装LTS长期支持版本&lt;/li&gt;
+&lt;li&gt;打开命令窗口（Win+R）并输入代码查看是否安装成功node -v和npm -v&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;4&#34; color=&#34;#FFFFFF&#34;&gt;安装Hexo博客框架&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;因为国内镜像源延迟问题，安装中国的CNMP（-g为全局安装）&lt;br&gt;npm install -g cnpm –registry=&lt;a href=&#34;https://registry.npm.taobao.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://registry.npm.taobao.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;检查是否安装成功cnpm -v&lt;/li&gt;
+&lt;li&gt;接下来安装hexo博客框架cnpm install -g hexo-cli&lt;/li&gt;
+&lt;li&gt;检查是否安装成功hexo -v&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;4&#34; color=&#34;#FFFFFF&#34;&gt;初始化博客&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;建立自己的博客文件夹（如果后期想删除直接删除该文件夹就行）&lt;/li&gt;
+&lt;li&gt;CMD指向该目录，并执行语句hexo init初始化博客&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;如果出现下面代码说明没有安装git&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#000000&#34;&gt;&lt;font face=&#34;微软雅黑&#34; color=&#34;#FFFFFF&#34;&gt;INFO  Cloning hexo-starter https://github.com/hexojs/hexo-starter.git
+&#39;git&#39; 不是内部或外部命令，也不是可运行的程序或批处理文件。
+WARN  git clone failed. Copying data instead
+WARN  Failed to install dependencies. Please run &#39;npm install&#39; manually!&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;启动博客hexo server就会出现实例地址&lt;a href=&#34;http://localhost:4000/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://localhost:4000/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;4&#34; color=&#34;#FFFFFF&#34;&gt;网络部署git插件&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;ul&gt;
+&lt;li&gt;在命令行窗口选择到博客根目录&lt;/li&gt;
+&lt;li&gt;安装git部署插件：执行语句cnpm install –save hexo-deployer-git&lt;/li&gt;
+&lt;li&gt;设置目录下的_config.yml文件（站点配置文件）&lt;strong&gt;冒号后一定空格&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;type: git&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#repository: git@git.coding.net:xxx&amp;#x2F;xxx.coding.me.git       &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;repo: https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;xxx&amp;#x2F;xxx.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;branch: master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;开始上传代码hexo deploy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;4&#34; color=&#34;#FFFFFF&#34;&gt;多仓库部署&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  type: git&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  repo: &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    github: https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;XXX&amp;#x2F;XXX.git&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    coding: https:&amp;#x2F;&amp;#x2F;e.coding.net&amp;#x2F;XXX&amp;#x2F;XXX.git&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  branch: master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+  &lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;4&#34; color=&#34;#FFFFFF&#34;&gt;网络部署常见问题&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;p&gt;  密码输入错误：进入Windows的控制面板，打开凭据管理器，选择Windows凭据，更改账号密码&lt;/p&gt;
+&lt;p&gt;GitHub仓库名称：用户名.github.io&lt;/p&gt;
+&lt;p&gt;Coding仓库名称&lt;/p&gt;
+&lt;h2 id=&#34;装饰我的博客&#34;&gt;&lt;a href=&#34;#装饰我的博客&#34; class=&#34;headerlink&#34; title=&#34;装饰我的博客&#34;&gt;&lt;/a&gt;&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FD8002&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;5&#34; color=&#34;#FFFFFF&#34;&gt;装饰我的博客&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;&lt;/h2&gt; &lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;4&#34; color=&#34;#FFFFFF&#34;&gt;修改主题&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;
+
+&lt;p&gt;  搜索或者在Hexo主题官网挑选主题-&lt;a href=&#34;https://hexo.io/themes/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hexo.io/themes/&lt;/a&gt;&lt;br&gt;  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;打开主题介绍，根据介绍安装必须插件，执行安装操作（一般是克隆git，修改配置文件）&lt;br&gt;  我使用的主题是&lt;/p&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;cd themes&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git clone https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;ZHD99&amp;#x2F;hexo-theme-dearmsdan.git dearmsdan&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+ &lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;3&#34; color=&#34;#FFFFFF&#34;&gt;结构化自己的页面&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt; 
+
+&lt;p&gt; 博客页面结构目录位置:&lt;/p&gt;
+&lt;p&gt;修改主程序的_config.yml文件&lt;/p&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;theme: dearmsdan&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+  &lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;3&#34; color=&#34;#FFFFFF&#34;&gt;修改代码显示格式&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt; 
+
+&lt;p&gt;  一个比较美观的代码块样式：&lt;br&gt;  在head头标签内链接css样式&lt;br&gt;link rel=”stylesheet” href=”&lt;a href=&#34;https://oindk07nf.qnssl.com/atom-one-dark.css&amp;quot;&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://oindk07nf.qnssl.com/atom-one-dark.css&amp;quot;&lt;/a&gt; media=”screen” type=”text/css”&lt;/p&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;% codeblock lang:js%&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;代码块&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#123;% endcodeblock %&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+ &lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;3&#34; color=&#34;#FFFFFF&#34;&gt;插件的添加&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt; 
+ &amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &amp;nbsp;在网络中搜索插件并根据说明进行安装  
+  来必力、畅言  
+  cnzz、百度统计。在最后的页脚进行部署
+
+
+
+&lt;h2 id=&#34;【hexo】hexo博客部署到github&#34;&gt;&lt;a href=&#34;#【hexo】hexo博客部署到github&#34; class=&#34;headerlink&#34; title=&#34;【hexo】hexo博客部署到github&#34;&gt;&lt;/a&gt;&lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FD8002&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;5&#34; color=&#34;#FFFFFF&#34;&gt;【hexo】hexo博客部署到github&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt;&lt;/h2&gt; &lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;4&#34; color=&#34;#FFFFFF&#34;&gt;一、在github上创建仓库&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt; 
+
+&lt;p&gt; 首先注册一个github账号，注册时填写的username要谨慎&lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;1.创建一个Repository，名称规则为：&lt;/strong&gt;&lt;br&gt; &lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;username.github.io&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;br&gt;** 2.编辑hexo/config.yml文件如下：**&lt;/p&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;deploy:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  type: git&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  repository: https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;Chocolate-Lee&amp;#x2F;Chocolate-Lee.github.io.git&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  branch: master&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+   &lt;table&gt;&lt;div&gt;&lt;tr&gt;&lt;td bgcolor=&#34;#FFCDFF&#34;&gt;&lt;font face=&#34;微软雅黑&#34; size=&#34;4&#34; color=&#34;#FFFFFF&#34;&gt;二、为github设置SSH Keys&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/div&gt;&lt;/table&gt; 
+   **1.检查极其上是否已经存在id_rsa.pub文件**
+   &lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ls -al ~&amp;#x2F;.ssh&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+   **2.不存在的话使其生成**  
+
+   &lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;   ssh-keygen -t rsa -C &amp;quot;xxxxxx@xxx.com&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &amp;#96;&amp;#96;&amp;#96;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   一路回车就可以了  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;   &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  ** 3.赋值id_rsa.pub文件内容，在github的settings中，点选SSH keys，添加一个key，将内容粘贴进去。**&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;**4.测试是否添加成功，在刚刚的机器上输入**&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;ssh -T &lt;a href=&#34;mailto:git@github.com&#34;&gt;git@github.com&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight plain&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;table&amp;gt;&amp;lt;div&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td bgcolor&amp;#x3D;#FFCDFF&amp;gt;&amp;lt;font face&amp;#x3D;&amp;quot;微软雅黑&amp;quot; size&amp;#x3D;4 color&amp;#x3D;#FFFFFF&amp;gt;三、部署到github上&amp;lt;&amp;#x2F;font&amp;gt;&amp;lt;&amp;#x2F;td&amp;gt;&amp;lt;&amp;#x2F;tr&amp;gt;&amp;lt;&amp;#x2F;div&amp;gt;&amp;lt;&amp;#x2F;table&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;**1.在hexo中分别进行生成，发布：**&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;hexo g&lt;br&gt;hexo d&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;**2.部署成功后，可通过 http://chocolate-lee.github.io 进行访问，其中将chocolate-lle替换为你自己的username即可**
+
+&amp;lt;table&amp;gt;&amp;lt;div&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td bgcolor=#FFCDFF&amp;gt;&amp;lt;font face=&amp;quot;微软雅黑&amp;quot; size=4 color=#FFFFFF&amp;gt;五、配置自己的域名&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/table&amp;gt;
+
+1.准备一个自己的域名  
+2.解析一个二级域名，可采用A记录或者CNAME记录，A记录就是将二级域名指向github上的ip，我使用的是CNAME。  
+3.将自己的二级域名指向chocolate-lee.github.io  
+4.创建文件hexo/source/CNAME  
+5.编辑CNAME文件内容为你的域名  
+6.发布，即可，其中内容替换为自己的。  
+
+
+##  &amp;lt;table&amp;gt;&amp;lt;div&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td bgcolor=#FD8002&amp;gt;&amp;lt;font face=&amp;quot;微软雅黑&amp;quot; size=5 color=#FFFFFF&amp;gt;文章书写发布&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/table&amp;gt;
+
+&amp;lt;table&amp;gt;&amp;lt;div&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td bgcolor=#FFCDFF&amp;gt;&amp;lt;font face=&amp;quot;微软雅黑&amp;quot; size=4 color=#FFFFFF&amp;gt;文章的编写 - 分类标题日期&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/table&amp;gt;
+在MarkDown文件中，文件头写入文章信息，格式如下，可参考Hexo文档。  
+
+&amp;lt;table&amp;gt;&amp;lt;div&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td bgcolor=#16937&amp;gt;&amp;lt;font face=&amp;quot;微软雅黑&amp;quot; color=#FFFFFF&amp;gt;
+---  
+title: &amp;quot;文章标题&amp;quot;  
+date: (2000-01-01 08:00)  
+author: me  
+cover_picture: 封面图片(&amp;quot;url&amp;quot;)[可选]  
+desc: 文章的描述  
+top: 1 置顶文章[可选]  
+updated: 更新日期[可选]  
+comments: 是否打开评论(on/off)[可选]  
+tags: 标签[可选]  
+- tag  
+- tag  
+categories: 分类  
+- category  
+- category  
+---
+&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/table&amp;gt;
+
+&amp;lt;table&amp;gt;&amp;lt;div&amp;gt;&amp;lt;tr&amp;gt;&amp;lt;td bgcolor=#FFCDFF&amp;gt;&amp;lt;font face=&amp;quot;微软雅黑&amp;quot; size=4 color=#FFFFFF&amp;gt;操作使用Hexo&amp;lt;/font&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;/table&amp;gt;
+
+**1、启动博客：hexo server 可以简写成 hexo s  
+2、hexo clean #用来清理缓存文件  
+3、hexo generate #生成文件  
+4、hexo server #运行本地服务器  
+5、hexo deploy #部署到服务器  **
+&lt;/code&gt;&lt;/pre&gt;</content>
+        <category term="first" />
+        <updated>2020-07-28T13:00:00.000Z</updated>
+    </entry>
     <entry>
         <id>http://yoursite.com/2020/07/22/JAVA%E5%8F%91%E5%B1%95%E5%8F%B2/</id>
         <title>JAVA语言发展史</title>
