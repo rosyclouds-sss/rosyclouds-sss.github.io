@@ -6,6 +6,7 @@
     <updated>2020-07-28T13:00:00.000Z</updated>
     <category term="first" />
     <category term="basics" />
+    <category term="反向代理服务器" />
     <entry>
         <id>http://yoursite.com/2020/07/28/MyBlog%E6%90%AD%E5%BB%BA/</id>
         <title>Github博客-Hexo框架</title>

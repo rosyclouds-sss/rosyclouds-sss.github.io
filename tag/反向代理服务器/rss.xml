@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;反向代理服务器&#34; tag</title>
+        <link>http://yoursite.com</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Thu, 03 Sep 2020 16:58:00 +0800</pubDate>
+        <lastBuildDate>Thu, 03 Sep 2020 16:58:00 +0800</lastBuildDate>
+        <category>first</category>
+        <category>basics</category>
+        <category>反向代理服务器</category>
+        <item>
+            <guid isPermalink="true">http://yoursite.com/2020/09/03/Nginx%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98/</guid>
+            <title>Nginx常见面试题</title>
+            <link>http://yoursite.com/2020/09/03/Nginx%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%A2%98/</link>
+            <category>反向代理服务器</category>
+            <pubDate>Thu, 03 Sep 2020 16:58:00 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;1、请解释一下什么是Nginx&#34;&gt;&lt;a href=&#34;#1、请解释一下什么是Nginx&#34; class=&#34;headerlink&#34; title=&#34;1、请解释一下什么是Nginx?&#34;&gt;&lt;/a&gt;1、请解释一下什么是Nginx?&lt;/h2&gt;&lt;p&gt;Nginx—Ngine X，是一款免费的、自由的、开源的、高性能HTTP服务器和反向代理服务器；也是一个IMAP、POP3、SMTP代理服务器；Nginx以其高性能、稳定性、丰富的功能、简单的配置和低资源消耗而闻名。&lt;/p&gt;
+&lt;p&gt;也就是说Nginx本身就可以托管网站（类似于Tomcat一样），进行Http服务处理，也可以作为反向代理服务器 、负载均衡器和HTTP缓存。&lt;/p&gt;
+&lt;p&gt;Nginx 解决了服务器的C10K（就是在一秒之内连接客户端的数目为10k即1万）问题。它的设计不像传统的服务器那样使用线程处理请求，而是一个更加高级的机制—事件驱动机制，是一种异步事件驱动结构。&lt;/p&gt;
+&lt;h2 id=&#34;2、请列举Nginx的一些特性&#34;&gt;&lt;a href=&#34;#2、请列举Nginx的一些特性&#34; class=&#34;headerlink&#34; title=&#34;2、请列举Nginx的一些特性&#34;&gt;&lt;/a&gt;2、请列举Nginx的一些特性&lt;/h2&gt;&lt;p&gt;跨平台：可以在大多数Unix like 系统编译运行。而且也有Windows的移植版本。 &lt;/p&gt;
+&lt;p&gt;配置异常简单：非常的简单，易上手。 &lt;/p&gt;
+&lt;p&gt;非阻塞、高并发连接：数据复制时，磁盘I/O的第一阶段是非阻塞的。官方测试能支持5万并发连接，实际生产中能跑2~3万并发连接数（得益于Nginx采用了最新的epoll事件处理模型（消息队列）。 &lt;/p&gt;
+&lt;p&gt;Nginx代理和后端Web服务器间无需长连接； &lt;/p&gt;
+&lt;p&gt;Nginx接收用户请求是异步的，即先将用户请求全部接收下来，再一次性发送到后端Web服务器，极大减轻后端Web服务器的压力。 &lt;/p&gt;
+&lt;p&gt;发送响应报文时，是边接收来自后端Web服务器的数据，边发送给客户端。 &lt;/p&gt;
+&lt;p&gt;网络依赖性低，理论上只要能够ping通就可以实施负载均衡，而且可以有效区分内网、外网流量。 &lt;/p&gt;
+&lt;p&gt;支持内置服务器检测。Nginx能够根据应用服务器处理页面返回的状态码、超时信息等检测服务器是否出现故障，并及时返回错误的请求重新提交到其它节点上。 &lt;/p&gt;
+&lt;p&gt;此外还有内存消耗小、成本低廉（比F5硬件负载均衡器廉价太多）、节省带宽、稳定性高等特点。&lt;/p&gt;
+&lt;h2 id=&#34;3、请列举Nginx和Apache-之间的不同点&#34;&gt;&lt;a href=&#34;#3、请列举Nginx和Apache-之间的不同点&#34; class=&#34;headerlink&#34; title=&#34;3、请列举Nginx和Apache 之间的不同点&#34;&gt;&lt;/a&gt;3、请列举Nginx和Apache 之间的不同点&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Nginx&lt;/th&gt;
+&lt;th&gt;Apache&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;Nginx是一个基于事件的web服务器&lt;/td&gt;
+&lt;td&gt;Apache是一个基于流程的服务器&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;所有的请求都是由一个线程处理&lt;/td&gt;
+&lt;td&gt;单个线程处理单个请求&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nginx避免子进程的概念&lt;/td&gt;
+&lt;td&gt;Apache是基于进程的&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nginx类似与速度&lt;/td&gt;
+&lt;td&gt;Apache类似于功率&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nginx在内存消耗和连接方面比较好&lt;/td&gt;
+&lt;td&gt;Apache在内存消耗和连接上并没有提高&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nginx在负载均衡方面表现良好&lt;/td&gt;
+&lt;td&gt;当流量到达进程的极限时，Apache将拒绝新的连接&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;对于PHP来说，Nginx可能更可取，因为它更支持PHP&lt;/td&gt;
+&lt;td&gt;Apache支持更多的OS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nginx不支持像IBMI和OpenVMS一样的OC&lt;/td&gt;
+&lt;td&gt;Apache提供了比Nginx更多的功能&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nginx只具有核心功能&lt;/td&gt;
+&lt;td&gt;Apache支持的PHP、PythonPerl和其他语言使用插件，当应用程序基于Python或Ruby时，它非常有用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nginx的性能和可伸缩性不依赖与硬件&lt;/td&gt;
+&lt;td&gt;Apache依赖于CPU和内存等硬件组件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2 id=&#34;4、请解释Nginx如何处理HTTP请求。&#34;&gt;&lt;a href=&#34;#4、请解释Nginx如何处理HTTP请求。&#34; class=&#34;headerlink&#34; title=&#34;4、请解释Nginx如何处理HTTP请求。&#34;&gt;&lt;/a&gt;4、请解释Nginx如何处理HTTP请求。&lt;/h2&gt;&lt;p&gt;Nginx 是一个高性能的 Web 服务器，能够同时处理大量的并发请求。它结合多进程机制和异步机制 ，异步机制使用的是异步非阻塞方式 ，接下来就给大家介绍一下 Nginx 的多线程机制和异步非阻塞机制 。&lt;/p&gt;
+&lt;h4 id=&#34;1、异步非阻塞机制&#34;&gt;&lt;a href=&#34;#1、异步非阻塞机制&#34; class=&#34;headerlink&#34; title=&#34;1、异步非阻塞机制&#34;&gt;&lt;/a&gt;1、异步非阻塞机制&lt;/h4&gt;&lt;p&gt;每个工作进程 使用 异步非阻塞方式 ，可以处理 多个客户端请求 。&lt;/p&gt;
+&lt;p&gt;当某个 工作进程 接收到客户端的请求以后，调用 IO 进行处理，如果不能立即得到结果，就去 处理其他请求 （即为 非阻塞 ）；而 客户端 在此期间也 无需等待响应 ，可以去处理其他事情（即为 异步 ）。&lt;/p&gt;
+&lt;p&gt;当 IO 返回时，就会通知此 工作进程 ；该进程得到通知，暂时 挂起 当前处理的事务去 响应客户端请求 。&lt;/p&gt;
+&lt;h4 id=&#34;2、多进程机制&#34;&gt;&lt;a href=&#34;#2、多进程机制&#34; class=&#34;headerlink&#34; title=&#34;2、多进程机制&#34;&gt;&lt;/a&gt;2、多进程机制&lt;/h4&gt;&lt;p&gt;服务器每当收到一个客户端时，就有 服务器主进程 （ master process ）生成一个 子进程（ worker process ）出来和客户端建立连接进行交互，直到连接断开，该子进程就结束了。&lt;/p&gt;
+&lt;p&gt;使用进程的好处是各个进程之间相互独立，不需要加锁，减少了使用锁对性能造成影响，同时降低编程的复杂度，降低开发成本。其次，采用独立的进程，可以让进程互相之间不会影响 ，如果一个进程发生异常退出时，其它进程正常工作， master 进程则很快启动新的 worker 进程，确保服务不会中断，从而将风险降到最低。&lt;/p&gt;
+&lt;p&gt;缺点是操作系统生成一个子进程需要进行 内存复制等操作，在资源和时间上会产生一定的开销。当有大量请求时，会导致系统性能下降 。&lt;/p&gt;
+&lt;h2 id=&#34;5、在Nginx中，如何使用未定义的服务器名称来阻止处理请求&#34;&gt;&lt;a href=&#34;#5、在Nginx中，如何使用未定义的服务器名称来阻止处理请求&#34; class=&#34;headerlink&#34; title=&#34;5、在Nginx中，如何使用未定义的服务器名称来阻止处理请求?&#34;&gt;&lt;/a&gt;5、在Nginx中，如何使用未定义的服务器名称来阻止处理请求?&lt;/h2&gt;&lt;p&gt;只需将请求删除的服务器就可以定义为：&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;server&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  listen &lt;span class=&#34;number&#34;&gt;80&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  server_name &lt;span class=&#34;string&#34;&gt;&#34;&#34;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;444&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+
+
+&lt;p&gt;这里，服务器名被保留为一个空字符串，它将在没有“主机”头字段的情况下匹配请求，而一个特殊的Nginx的非标准代码444被返回，从而终止连接。&lt;/p&gt;
+&lt;h2 id=&#34;6、请列举Nginx服务器的最佳用途。&#34;&gt;&lt;a href=&#34;#6、请列举Nginx服务器的最佳用途。&#34; class=&#34;headerlink&#34; title=&#34;6、请列举Nginx服务器的最佳用途。&#34;&gt;&lt;/a&gt;6、请列举Nginx服务器的最佳用途。&lt;/h2&gt;&lt;p&gt;Nginx服务器的最佳用法是在网络上部署动态HTTP内容，使用SCGI、WSGI应用程序服务器、用于脚本的FastCGI处理程序。它还可以作为负载均衡器。&lt;/p&gt;
+&lt;h2 id=&#34;7、-使用“反向代理服务器”的优点是什么&#34;&gt;&lt;a href=&#34;#7、-使用“反向代理服务器”的优点是什么&#34; class=&#34;headerlink&#34; title=&#34;7、 使用“反向代理服务器”的优点是什么?&#34;&gt;&lt;/a&gt;7、 使用“反向代理服务器”的优点是什么?&lt;/h2&gt;&lt;p&gt;反向代理服务器可以隐藏源服务器的存在和特征。它充当互联网云和web服务器之间的中间层。这对于安全方面来说是很好的，特别是当您使用web托管服务时。&lt;/p&gt;
+&lt;h2 id=&#34;8、请解释Nginx服务器上的Master和Worker进程分别是什么&#34;&gt;&lt;a href=&#34;#8、请解释Nginx服务器上的Master和Worker进程分别是什么&#34; class=&#34;headerlink&#34; title=&#34;8、请解释Nginx服务器上的Master和Worker进程分别是什么?&#34;&gt;&lt;/a&gt;8、请解释Nginx服务器上的Master和Worker进程分别是什么?&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;主程序 Master process 启动后，通过一个 for 循环来 接收 和 处理外部信号 ；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;主进程通过 fork() 函数产生 worker 子进程 ，每个子进程执行一个 for循环来实现Nginx服务器对事件的接收和处理 。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://img-blog.csdnimg.cn/20200901101015504.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0p1bkxpWXVu,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;p&gt;一般推荐 worker 进程数与CPU内核数一致，这样一来不存在大量的子进程生成和管理任务，避免了进程之间竞争CPU 资源和进程切换的开销。而且 Nginx 为了更好的利用 多核特性 ，提供了 CPU 亲缘性的绑定选项，我们可以将某一个进程绑定在某一个核上，这样就不会因为进程的切换带来 Cache 的失效。&lt;/p&gt;
+&lt;p&gt;对于每个请求，有且只有一个工作进程 对其处理。首先，每个 worker 进程都是从 master进程 fork 过来。在 master 进程里面，先建立好需要 listen 的 socket（listenfd） 之后，然后再 fork 出多个 worker 进程。&lt;/p&gt;
+&lt;p&gt;所有 worker 进程的 listenfd 会在新连接到来时变得可读 ，为保证只有一个进程处理该连接，所有 worker 进程在注册 listenfd 读事件前抢占 accept_mutex ，抢到互斥锁的那个进程注册 listenfd 读事件 ，在读事件里调用 accept 接受该连接。&lt;/p&gt;
+&lt;p&gt;当一个 worker 进程在 accept 这个连接之后，就开始读取请求、解析请求、处理请求，产生数据后，再返回给客户端 ，最后才断开连接。这样一个完整的请求就是这样的了。我们可以看到，一个请求，完全由 worker 进程来处理，而且只在一个 worker 进程中处理。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img-blog.csdnimg.cn/20200901101045339.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0p1bkxpWXVu,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;p&gt;在 Nginx 服务器的运行过程中， 主进程和工作进程 需要进程交互。交互依赖于 Socket 实现的管道来实现。&lt;/p&gt;
+&lt;h2 id=&#34;9、请解释代理设计中的正向代理和反向代理&#34;&gt;&lt;a href=&#34;#9、请解释代理设计中的正向代理和反向代理&#34; class=&#34;headerlink&#34; title=&#34;9、请解释代理设计中的正向代理和反向代理?&#34;&gt;&lt;/a&gt;9、请解释代理设计中的正向代理和反向代理?&lt;/h2&gt;&lt;p&gt;首先，代理服务器一般指局域网内部的机器通过代理服务器发送请求到互联网上的服务器，代理服务器一般作用在客户端。例如：GoAgent翻墙软件。我们的客户端在进行翻墙操作的时候，我们使用的正是正向代理，通过正向代理的方式，在我们的客户端运行一个软件，将我们的HTTP请求转发到其他不同的服务器端，实现请求的分发。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img-blog.csdnimg.cn/2020090110111137.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0p1bkxpWXVu,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;p&gt;反向代理服务器作用在服务器端，它在服务器端接收客户端的请求，然后将请求分发给具体的服务器进行处理，然后再将服务器的相应结果反馈给客户端。Nginx就是一个反向代理服务器软件。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img-blog.csdnimg.cn/20200901101136581.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0p1bkxpWXVu,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;p&gt;从上图可以看出：客户端必须设置正向代理服务器，当然前提是要知道正向代理服务器的IP地址，还有代理程序的端口。&lt;br&gt;反向代理正好与正向代理相反，对于客户端而言代理服务器就像是原始服务器，并且客户端不需要进行任何特别的设置。客户端向反向代理的命名空间（name-space）中的内容发送普通请求，接着反向代理将判断向何处（原始服务器）转交请求，并将获得的内容返回给客户端。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img-blog.csdnimg.cn/20200901101203445.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0p1bkxpWXVu,size_16,color_FFFFFF,t_70#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;10、请解释是否有可能将Nginx的错误替换为502错误、503&#34;&gt;&lt;a href=&#34;#10、请解释是否有可能将Nginx的错误替换为502错误、503&#34; class=&#34;headerlink&#34; title=&#34;10、请解释是否有可能将Nginx的错误替换为502错误、503?&#34;&gt;&lt;/a&gt;10、请解释是否有可能将Nginx的错误替换为502错误、503?&lt;/h2&gt;&lt;p&gt;502 =错误网关&lt;/p&gt;
+&lt;p&gt;503 =服务器超载&lt;/p&gt;
+&lt;p&gt;有可能，但是您可以确保fastcgi_intercept_errors被设置为ON，并使用错误页面指令。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://img-blog.csdnimg.cn/20200901101229411.png#pic_center&#34; alt=&#34;在这里插入图片描述&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;11、在Nginx中，解释如何在URL中保留双斜线&#34;&gt;&lt;a href=&#34;#11、在Nginx中，解释如何在URL中保留双斜线&#34; class=&#34;headerlink&#34; title=&#34;11、在Nginx中，解释如何在URL中保留双斜线?&#34;&gt;&lt;/a&gt;11、在Nginx中，解释如何在URL中保留双斜线?&lt;/h2&gt;&lt;p&gt;要在URL中保留双斜线，就必须使用merge_slashes_off;&lt;/p&gt;
+&lt;p&gt;语法:merge_slashes [on/off]&lt;/p&gt;
+&lt;p&gt;默认值: merge_slashes on&lt;/p&gt;
+&lt;p&gt;环境: http，server&lt;/p&gt;
+&lt;h2 id=&#34;12、请解释ngx-http-upstream-module的作用是什么&#34;&gt;&lt;a href=&#34;#12、请解释ngx-http-upstream-module的作用是什么&#34; class=&#34;headerlink&#34; title=&#34;12、请解释ngx_http_upstream_module的作用是什么?&#34;&gt;&lt;/a&gt;12、请解释ngx_http_upstream_module的作用是什么?&lt;/h2&gt;&lt;p&gt;ngx_http_upstream_module用于定义可通过fastcgi传递、proxy传递、uwsgi传递、memcached传递和scgi传递指令来引用的服务器组。&lt;/p&gt;
+&lt;h2 id=&#34;13、请解释什么是C10K问题&#34;&gt;&lt;a href=&#34;#13、请解释什么是C10K问题&#34; class=&#34;headerlink&#34; title=&#34;13、请解释什么是C10K问题?&#34;&gt;&lt;/a&gt;13、请解释什么是C10K问题?&lt;/h2&gt;&lt;p&gt;C10K问题是指无法同时处理大量客户端(10,000)的网络套接字。&lt;/p&gt;
+&lt;h2 id=&#34;14、请陈述stub-status和sub-filter指令的作用是什么&#34;&gt;&lt;a href=&#34;#14、请陈述stub-status和sub-filter指令的作用是什么&#34; class=&#34;headerlink&#34; title=&#34;14、请陈述stub_status和sub_filter指令的作用是什么?&#34;&gt;&lt;/a&gt;14、请陈述stub_status和sub_filter指令的作用是什么?&lt;/h2&gt;&lt;p&gt;Stub_status指令：该指令用于了解Nginx当前状态的当前状态，如当前的活动连接，接受和处理当前读/写/等待连接的总数；&lt;/p&gt;
+&lt;p&gt;Sub_filter指令：它用于搜索和替换响应中的内容，并快速修复陈旧的数据；&lt;/p&gt;
+&lt;h2 id=&#34;15、解释Nginx是否支持将请求压缩到上游&#34;&gt;&lt;a href=&#34;#15、解释Nginx是否支持将请求压缩到上游&#34; class=&#34;headerlink&#34; title=&#34;15、解释Nginx是否支持将请求压缩到上游?&#34;&gt;&lt;/a&gt;15、解释Nginx是否支持将请求压缩到上游?&lt;/h2&gt;&lt;p&gt;您可以使用Nginx模块gunzip将请求压缩到上游。gunzip模块是一个过滤器，它可以对不支持“gzip”编码方法的客户机或服务器使用“内容编码:gzip”来解压缩响应。&lt;/p&gt;
+&lt;h2 id=&#34;16、解释如何在Nginx中获得当前的时间&#34;&gt;&lt;a href=&#34;#16、解释如何在Nginx中获得当前的时间&#34; class=&#34;headerlink&#34; title=&#34;16、解释如何在Nginx中获得当前的时间?&#34;&gt;&lt;/a&gt;16、解释如何在Nginx中获得当前的时间?&lt;/h2&gt;&lt;p&gt;要获得Nginx的当前时间，必须使用SSI模块、$date_gmt和$date_local的变量。&lt;/p&gt;
+&lt;p&gt;Proxy_set_header THE-TIME $date_gmt;&lt;/p&gt;
+&lt;h2 id=&#34;17、用Nginx服务器解释-s的目的是什么&#34;&gt;&lt;a href=&#34;#17、用Nginx服务器解释-s的目的是什么&#34; class=&#34;headerlink&#34; title=&#34;17、用Nginx服务器解释-s的目的是什么?&#34;&gt;&lt;/a&gt;17、用Nginx服务器解释-s的目的是什么?&lt;/h2&gt;&lt;p&gt;用于运行Nginx -s参数的可执行文件。&lt;/p&gt;
+&lt;h2 id=&#34;18、解释如何在Nginx服务器上添加模块&#34;&gt;&lt;a href=&#34;#18、解释如何在Nginx服务器上添加模块&#34; class=&#34;headerlink&#34; title=&#34;18、解释如何在Nginx服务器上添加模块?&#34;&gt;&lt;/a&gt;18、解释如何在Nginx服务器上添加模块?&lt;/h2&gt;&lt;p&gt;在编译过程中，必须选择Nginx模块，因为Nginx不支持模块的运行时间选择。&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>
